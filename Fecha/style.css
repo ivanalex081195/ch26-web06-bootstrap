@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.container {
+    margin-top: 10px;
+    margin-left: 480px;
+}
+body { 
+    background-color: rgb(73, 73, 151);;
+}
+label {
+    color: white;
+}
