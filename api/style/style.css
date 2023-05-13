@@ -1,0 +1,9 @@
+    
+  
+@media screen and (max-width: 768px) {
+    
+  table thead {
+    position: absolute;
+    width: 0;
+ 
+}
