@@ -1,14 +1,6 @@
-const btnGetUsers = document.getElementById("btn-get-users");
-const apiURL = "https://reqres.in/api/users?delay=3";
-const usersContainer = document.getElementById("users-container");
-const loader = document.getElementById("loader");
-const oneMinuteDelay = 60000;
-let dueFetchTime = 0;
-let errorOnServer = false;
+/* Solicitar datos de API */
+let url = "https://reqres.in/api/users";
 
-const startLoader = () => {
-    loader.innerHTML = ` <div class="spinner-border text-light" role="status"></div>`;
-}
 
 const endLoader = () => {
     loader.innerHTML = ``;
