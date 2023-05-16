@@ -6,3 +6,12 @@ table thead {
       background:#302b63;
       color:white;
 } 
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
